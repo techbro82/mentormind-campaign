@@ -1,0 +1,58 @@
+{
+ "day": 2,
+ "fps": 24,
+ "clips": [
+  {
+   "path": "/home/claude/clips2/day02-line1.mp4",
+   "in": 2.5,
+   "speed": 1.0
+  },
+  {
+   "path": "/home/claude/clips2/day02-line2.mp4",
+   "in": 1.0,
+   "speed": 1.0
+  },
+  {
+   "path": "/home/claude/clips2/day02-line3.mp4",
+   "in": 0.0,
+   "speed": 1.0,
+   "zoom": 1.45,
+   "anchor_y": 0.0
+  }
+ ],
+ "lines": [
+  {
+   "text": "You know something has to change.",
+   "y": 400,
+   "scrim": 0.4,
+   "max_h": 215
+  },
+  {
+   "text": "You just don't know what.",
+   "y": 480,
+   "scrim": 0.4
+  },
+  {
+   "text": "Or where to even start.",
+   "gold": true,
+   "y": 300,
+   "max_h": 230,
+   "scrim": 0.45
+  }
+ ],
+ "voice_wav": "/home/claude/voice/day02_voice_raw.wav",
+ "voice_json": "/home/claude/voice/day02_voice.json",
+ "voice_af": "highpass=f=70,equalizer=f=170:t=q:w=1:g=3,equalizer=f=3800:t=q:w=1:g=-1.5,acompressor=threshold=-20dB:ratio=2.5:attack=15:release=180:makeup=2",
+ "closing": {
+  "cta": "FOLLOW FOR LAUNCH DAY"
+ },
+ "out": "/home/claude/social/day02_final.mp4",
+ "stills": [
+  0.9,
+  1.9,
+  3.0,
+  4.6,
+  5.5,
+  8.3
+ ]
+}

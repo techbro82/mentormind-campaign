@@ -1,0 +1,57 @@
+{
+ "day": 3,
+ "fps": 24,
+ "clips": [
+  {
+   "path": "/home/claude/clips3/day03-line1.mp4",
+   "in": 3.6,
+   "speed": 1.0
+  },
+  {
+   "path": "/home/claude/clips3/day03-line2.mp4",
+   "in": 2.0,
+   "speed": 1.0
+  },
+  {
+   "path": "/home/claude/clips3/day03-line3.mp4",
+   "in": 2.0,
+   "speed": 1.0
+  }
+ ],
+ "lines": [
+  {
+   "text": "Everyone expects you to have it figured out.",
+   "y": 250,
+   "max_h": 215,
+   "scrim": 0.5
+  },
+  {
+   "text": "You're still figuring it out.",
+   "y": 260,
+   "max_h": 215,
+   "scrim": 0.45
+  },
+  {
+   "text": "And that's normal.",
+   "gold": true,
+   "y": 300,
+   "max_h": 215,
+   "scrim": 0.5
+  }
+ ],
+ "voice_wav": "/home/claude/voice/day03_voice_raw.wav",
+ "voice_json": "/home/claude/voice/day03_voice.json",
+ "voice_af": "highpass=f=70,equalizer=f=170:t=q:w=1:g=3,equalizer=f=3800:t=q:w=1:g=-1.5,acompressor=threshold=-20dB:ratio=2.5:attack=15:release=180:makeup=2",
+ "closing": {
+  "cta": "FOLLOW FOR LAUNCH DAY"
+ },
+ "out": "/home/claude/social/day03_final.mp4",
+ "stills": [
+  1.0,
+  3.8,
+  5.2,
+  6.2,
+  7.2,
+  9.6
+ ]
+}

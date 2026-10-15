@@ -1,0 +1,79 @@
+{
+ "day": 1,
+ "fps": 24,
+ "clips": [
+  {
+   "path": "/home/claude/clips/day01-line1.mp4",
+   "in": 1.0,
+   "speed": 1.0,
+   "gain": [
+    0.99,
+    0.95,
+    1.04
+   ]
+  },
+  {
+   "path": "/home/claude/clips/day01-line2.mp4",
+   "in": 1.5,
+   "speed": 1.0,
+   "gain": [
+    0.92,
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "path": "/home/claude/clips/day01-line3.mp4",
+   "in": 0.5,
+   "speed": 1.0,
+   "gain": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "text": "You're carrying a lot.",
+   "y": 430
+  },
+  {
+   "text": "Mostly quietly.",
+   "y": 1210
+  },
+  {
+   "text": "And some of it, nobody sees.",
+   "gold": true,
+   "y": 300,
+   "max_h": 230
+  }
+ ],
+ "voice_wav": "/home/claude/voice/day01_voice_raw.wav",
+ "voice_json": "/home/claude/voice/day01_voice.json",
+ "closing": {
+  "cta": "FOLLOW FOR LAUNCH DAY"
+ },
+ "out": "/home/claude/social/day01_v2.mp4",
+ "stills": [
+  1.2,
+  1.95,
+  3.0,
+  5.0,
+  6.0,
+  7.0,
+  8.4,
+  10.5
+ ],
+ "bug": {
+  "enabled": true,
+  "width": 240,
+  "opacity": 0.92,
+  "y": 1405,
+  "handle": "@mentormindhq"
+ },
+ "moon_xy": [
+  778,
+  570
+ ]
+}
